@@ -4,7 +4,7 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig({
-  base: '/neumorphism-portfolio/',
+  base: '/portfolio-website/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
