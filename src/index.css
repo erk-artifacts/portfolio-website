@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neu-base: #E0E5EC;
+  --color-neu-light: #FFFFFF;
+  --color-neu-dark: #A3B1C6;
+  --color-neu-accent: #6D5DFC;
+  --color-neu-text-main: #4A4A4A;
+  --color-neu-text-sub: #7A7A7A;
+
+  --shadow-neu-flat: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.6);
+  --shadow-neu-pressed: inset 6px 6px 10px 0 rgba(163, 177, 198, 0.7), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.8);
+  --shadow-neu-hover: 12px 12px 20px rgba(163, 177, 198, 0.7), -12px -12px 20px rgba(255, 255, 255, 0.7);
+  --shadow-neu-sm: 5px 5px 10px rgba(163, 177, 198, 0.6), -5px -5px 10px rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: var(--color-neu-base);
+  color: var(--color-neu-text-main);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom utilities for text shadow */
+.text-shadow-neu {
+  text-shadow: 2px 2px 4px rgba(163, 177, 198, 0.5), -2px -2px 4px rgba(255, 255, 255, 0.8);
+}
+
