@@ -12,7 +12,8 @@
       "Bash(node_modules/.bin/\"design.md\" --help)",
       "Bash(node_modules/@google/design.md/cli.js --help)",
       "Bash(node_modules/.bin/\"design.md\" lint *)",
-      "Bash(node_modules/.bin/\"design.md\" export *)"
+      "Bash(node_modules/.bin/\"design.md\" export *)",
+      "Bash(gh pr *)"
     ]
   }
 }

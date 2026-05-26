@@ -139,6 +139,8 @@ aesthetic. The system uses six levels:
 - **h3:** Card and item titles (1.25rem / 20px, bold).
 - **body:** Default body text (1rem / 16px). Used for descriptions and
   paragraphs.
+- **body-sm:** Small body text (0.875rem / 14px). Reserved for future use
+  in dense layouts or secondary descriptions.
 - **label:** Form labels and role subtitles (0.875rem / 14px, semi-bold,
   tracked).
 - **caption:** Tags and micro-text (0.75rem / 12px, semi-bold, wide-tracked).

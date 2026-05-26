@@ -9,8 +9,7 @@
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
-    "design:lint": "node_modules/.bin/design.md lint DESIGN.md",
-    "design:export": "node_modules/.bin/design.md export DESIGN.md --format=tailwind"
+    "design:lint": "node_modules/.bin/design.md lint DESIGN.md"
   },
   "dependencies": {
     "lucide-react": "^0.546.0",
@@ -18,7 +17,7 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@google/design.md": "^0.1.1",
+    "@google/design.md": "0.1.1",
     "@tailwindcss/vite": "^4.1.14",
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.4",
