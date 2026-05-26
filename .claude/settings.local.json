@@ -6,7 +6,13 @@
       "WebFetch(domain:api.github.com)",
       "Bash(npm run build:*)",
       "Bash(git remote add:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(npx designmd *)",
+      "Bash(npx \"@google/design.md\" --help)",
+      "Bash(node_modules/.bin/\"design.md\" --help)",
+      "Bash(node_modules/@google/design.md/cli.js --help)",
+      "Bash(node_modules/.bin/\"design.md\" lint *)",
+      "Bash(node_modules/.bin/\"design.md\" export *)"
     ]
   }
 }
