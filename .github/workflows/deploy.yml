@@ -23,6 +23,12 @@ jobs:
           node-version: '20'
           cache: 'npm'
 
+      - name: Verify react/react-dom versions match
+        run: |
+          REACT_VER=$(node -p "require('./node_modules/react/package.json').version")
+          REACT_DOM_VER=$(node -p "require('./node_modules/react-dom/package.json').version")
+          [ "$REACT_VER" = "$REACT_DOM_VER" ] || { echo "::error::Version mismatch: react@$REACT_VER vs react-dom@$REACT_DOM_VER"; exit 1; }
+
       - name: Install dependencies
         run: npm ci
 
